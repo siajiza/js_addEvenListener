@@ -1,8 +1,32 @@
 # **AddEvenListener**
 
-One of the most popular features of Javascript, is how we can implement dynamic behavior in to our app or website.
+### **How works addEvenListener**
+_One of the most popular features of Javascript, is how we can implement dynamic behavior in to our app or website._
 
-We can find this "dynamic behavior" using a Javascript function named "addEvenListener" where we call some behavior where we for example can pass in the pointer on the text or click on it and we create some "dynamic behavior".
+_We can find this "dynamic behavior" using a Javascript function named "addEvenListener" where we call some behavior where we for example can pass in the pointer on the text or click on it and we create some "dynamic behavior"._
+
+**SYNTAX**
+
+    target.addEventListener(type, listener);
+
+The EventTarget method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target. Common targets are Element, Document, and Window, but the target may be any object that supports events (such as XMLHttpRequest).
+
+**_"addEventListener()"_** works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called.
+
+**------------------------------------------------------------**
+
+Parameters:
+
+* type
+
+    An event to occur. Examples of an event are the user clicking or moving the mouse, pressing a key on the keyboard, disk I/O, network activity, or an internal timer or interrupt.
+
+
+* listener
+
+    The object that receives a notification (an object that implements the Event interface) when an event of the specified type occurs. This must be an object implementing the EventListener interface, or a **JavaScript function**
+
+**------------------------------------------------------------**
 
 Let´s start with a basic practice!
 
